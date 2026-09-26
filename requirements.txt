@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn
+xgboost
+mlflow
+dvc
+fastapi
+uvicorn[standard]
+pydantic
+pytest
+httpx

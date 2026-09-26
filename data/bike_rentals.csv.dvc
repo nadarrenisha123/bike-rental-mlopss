@@ -1,0 +1,5 @@
+outs:
+- md5: 5591fe0bfa4317136bee731a2ab4c094
+  size: 57542
+  hash: md5
+  path: bike_rentals.csv
