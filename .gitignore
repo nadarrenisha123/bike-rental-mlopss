@@ -6,10 +6,6 @@ venv/
 __pycache__/
 *.pyc
 
-# MLflow generated files
-mlruns/
-mlflow.db
-
 # OS files
 .DS_Store
 Thumbs.db
