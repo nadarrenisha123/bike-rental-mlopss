@@ -1,0 +1,22 @@
+artifact_path: file:C:/Users/renis/OneDrive/Desktop/bike-rental-mlops/bike-rental-mlops/mlruns/1/models/m-9af7d35681f3442eb04f0044c343d905/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.12.10
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBRegressor
+    model_format: ubj
+    xgb_version: 3.4.1
+mlflow_version: 3.16.1
+model_id: m-9af7d35681f3442eb04f0044c343d905
+model_size_bytes: 980233
+model_uuid: m-9af7d35681f3442eb04f0044c343d905
+prompts: null
+run_id: ff2513ade9b14e7a8d21a6e73fdbec3e
+utc_time_created: '2026-09-24 14:19:12.809663'

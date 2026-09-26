@@ -1,0 +1,24 @@
+artifact_path: file:C:/Users/renis/OneDrive/Desktop/bike-rental-mlops/bike-rental-mlops/mlruns/1/models/m-4c388010ddd541e2b477a2ade3a61bbc/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.10
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.16.1
+model_id: m-4c388010ddd541e2b477a2ade3a61bbc
+model_size_bytes: 13692833
+model_uuid: m-4c388010ddd541e2b477a2ade3a61bbc
+prompts: null
+run_id: 410b79bfea2d4332aeb7ead083b12e60
+utc_time_created: '2026-09-24 14:16:42.346711'
